@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas08</title>
+    <style>
+ .container{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            height: 80vh;
+        }
+        .row1{
+            display: flex;
+            gap: 0px;
+            text-align: center;
+        }
+        .row1-div{
+background-color: pink;
+flex-grow: 1;
+height: 80vh;
+        }
+        .row1-main{
+flex-grow: 5;
+text-align: center;
+        }
+        .main-header{
+            background-color: bisque;
+            height: 15vh;
+        }
+        .row2{
+            display: flex;
+            gap: 0px;
+            height: 50vh;
+        }
+        .row2-article{
+            background-color: aliceblue;
+            flex-grow: 4;
+        }
+        .row2-aside{
+            background-color: aqua;
+            flex-grow: 1;
+        }
+        .row3{
+            display: flex;
+            gap: 0px;
+            background-color: bisque;
+            height: 15vh;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <div class="row1-div">Div</div>
+            <div class="row1-main">
+                <div class="main-header">Header</div>
+                <div class="row2">
+                <div class="row2-article">Article</div>
+                <div class="row2-aside">Aside</div>
+                </div>
+                <div class="row3">footer</div>
+        </div>
+        <div class="row3"></div>
+        </div>
+</body>
+</html>
